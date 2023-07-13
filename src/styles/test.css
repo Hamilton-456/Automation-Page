@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(198, 88%, 95%);
+}
+
+.test {
+  min-height: 100%;
+  min-width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.test h2 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  position: relative;
+  align-self: center;
+}
+
+.test h2::before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 100%;
+  bottom: -0.25rem;
+  background-color: hsl(157, 85%, 48%);
+}
+
+.test .card_automation {
+  margin: 1.5rem 1rem 0 1rem;
+  padding: 1rem 0;
+  background-color: #fff;
+  align-self: center;
+  border-radius: 0.75rem;
+  filter: drop-shadow(0 3mm 4mm rgba(59, 59, 59, 0.479));
+}
+
+.test .card_automation h3 {
+  max-width: 90%;
+  margin: 0 auto 0.5rem auto;
+}
+
+.test .card_automation span {
+  color: hsl(157, 85%, 48%);
+}
+
+.test .exercise_card {
+  margin-top: 1.75rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  align-self: center;
+  padding: 1rem;
+  filter: drop-shadow(0 3mm 4mm rgba(59, 59, 59, 0.479));
+}
+
+.test .exercise_card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.test .exercise_card span {
+  font-size: 1.25rem;
+}
+
+.test .exercise_card select {
+  display: block;
+  margin: 0.5rem auto 0 auto;
+  width: 100px;
+  padding: 0.25rem;
+  border-radius: 0.45rem;
+  background-color: hsl(157, 85%, 48%);
+}
+
+.test .exercise_card select:focus {
+  outline: none;
+}
+
+.test button {
+  align-self: center;
+  padding: 0.5rem 0.75rem;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: hsl(157, 85%, 48%);
+  margin-top: 5.5rem;
+}
+
+.test button:active {
+  background-color: hsl(157, 85%, 36%);
+}
+
+.test h3 {
+  font-size: clamp(0.2rem, 1rem, 1.5rem);
+}
+
+.test .exercise_card span {
+  font-size: clamp(0.2rem, 1rem, 1.5rem);
+}
