@@ -48,7 +48,7 @@ export default function Test() {
       </div>
       <div className="exercise_card">
         <h3>Solve the next exercise</h3>
-        <span>{exercise.exercise}</span>
+        <span className="exercise">{exercise.exercise}</span>
 
         <select
           className="select"
