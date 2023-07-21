@@ -27,7 +27,7 @@ export default function Test() {
   function sendAnswer() {
     if (index == 0 && optionResult == "132") afterCorrectAnswer();
     else if (index == 1 && optionResult == "201") afterCorrectAnswer();
-    else if (index == 2 && optionResult == "-582") afterCorrectAnswer();
+    else if (index == 2 && optionResult == "-198") afterCorrectAnswer();
     else if (index == 3 && optionResult == "194") afterCorrectAnswer();
     else if (index == 4 && optionResult == "-106")
       navigate("/Automation-Page/test/succeed");
